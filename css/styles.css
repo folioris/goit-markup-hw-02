@@ -7,12 +7,13 @@
         --accent-color-btn: #404BBF;
         --description-features: #2E2F42;
         --address-color: #434455;
-        --footer-text: #E7E9FC;
+        --btn-background-color: #E7E9FC 
 }
 
 body {
         font-family: 'Roboto', sans-serif;
-        color: var(--primary-bg-color);
+        background-color: var(--primary-bg-color);
+        color: var(--primary-text-color);
 }
 .list {
     list-style: none;
@@ -145,11 +146,11 @@ font-weight: 500;
 }
 
 .footer-desc {
-    color: var(--footer-text);
-    font-weight: 400;
+    color: var(--btn-background-color);
+        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        letter-spacing: 0.02em
+        letter-spacing: 0.02em;
 }
 
 .logo-footer {
@@ -159,4 +160,38 @@ font-weight: 500;
         font-weight: 800;
         font-size: 18px;
         line-height: 21px;
+}
+
+.nav-buttons {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        color: var(--accent-color);
+        background: var(--team-background-color);
+        border-radius: 4px;
+        border: var(--btn-background-color);
+    }
+
+.nav-buttons:hover,
+.nav-buttons:focus {
+color: #ffffff;
+background-color: var(--accent-color);
+}
+
+.caption-cards {
+    color: var(--description-features);
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-desc {
+    color: var(--address-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
 }
